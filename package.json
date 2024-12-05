@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nuxtjs/sanity": "^1.13.0",
+    "@sanity/visual-editing": "latest",
     "nuxt": "^3.14.1592",
     "react-is": "^18.3.1",
     "vue": "latest",
