@@ -17,4 +17,15 @@ export default defineNuxtConfig({
             studioUrl: 'http://localhost:3333',
         },
     },
+    vite: {
+        optimizeDeps: {
+            include: [
+                '@sanity/visual-editing',
+                'react',
+                'react/jsx-runtime',
+                'react-dom',
+                'react-dom/client'
+            ],
+        },
+    },
 })
